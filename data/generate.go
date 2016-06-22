@@ -36,7 +36,7 @@ var tmpl = template.Must(template.New("").Funcs(tfuncs).Parse(`
 
 	package data
 	import (
-		"code.google.com/p/go-charset/charset"
+		"github.com/wesselstoker/go-charset/charset"
 		"io"
 		"io/ioutil"
 		"strings"
